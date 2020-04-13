@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "758700177022",
+    "firebase_url": "https://hire-now-7828c.firebaseio.com",
+    "project_id": "hire-now-7828c",
+    "storage_bucket": "hire-now-7828c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758700177022:android:fbe353c00ec7d40e",
+        "android_client_info": {
+          "package_name": "com.example.omar.cnghiring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758700177022-7ssf6fkrcc0dt4c10rn8m79om53qn2hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omar.cnghiring",
+            "certificate_hash": "bacb09337b333390099c617cc7ee47eae73dd63b"
+          }
+        },
+        {
+          "client_id": "758700177022-an91vvctpd9br2nmhjemvjbopdfnffes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omar.cnghiring",
+            "certificate_hash": "9ef64f2481c5467c2c8ea66209074d953ad33567"
+          }
+        },
+        {
+          "client_id": "758700177022-u3rmiopnf8i8mc2r4o4k4368f0ggfbpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9zUgAyLYW9xNYiyN04fx-P7C-4reJBTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758700177022-u3rmiopnf8i8mc2r4o4k4368f0ggfbpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

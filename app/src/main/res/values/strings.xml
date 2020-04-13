@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HIRE NOW!</string>
+    <string name="hire_now">Hire Now!</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered_yet_register_here">not registered yet? register here.</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="phone_number2">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="national_id">National ID</string>
+    <string name="email">Email</string>
+    <string name="password2">Password</string>
+    <string name="_880">+880</string>
+    <string name="todo2">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+</resources>

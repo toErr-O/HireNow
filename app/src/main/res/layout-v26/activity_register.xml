@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration.registerActivty">
+
+    <ImageView
+        android:id="@+id/profileAvt"
+        android:layout_width="72dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        app:srcCompat="@drawable/profile3" />
+
+    <TextView
+        android:id="@+id/hireNowReg"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/profileAvt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+
+
+        android:text="HIRE NOW!"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profileReg"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hireNowReg"
+        android:layout_marginTop="9dp"
+
+
+        android:text="Profile Registration"
+        android:textAlignment="viewEnd"
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameRegister"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/phoneRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:autofillHints=""
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/phoneRegister"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/userTypeText"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+
+    <TextView
+        android:id="@+id/userTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/emailRegister"
+
+        android:layout_alignStart="@+id/emailRegister"
+        android:layout_marginBottom="68dp"
+
+        android:text=" User Type:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/emailRegister"
+        android:layout_alignEnd="@+id/passRegister2"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="9dp">
+
+        <RadioButton
+            android:id="@+id/passengerRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Passenger" />
+
+        <RadioButton
+            android:id="@+id/driverRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Driver" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/nidRegister"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+
+
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/nidRegister"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/passRegister1"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+
+        android:hint="National ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/passRegister1"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+
+        android:layout_above="@+id/passRegister2"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passRegister2"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/buttonRegister"
+
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+
+        android:text="Register"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

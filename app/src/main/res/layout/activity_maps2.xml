@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/buttonAccept"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonAccept"
+        android:text="Get Direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground" />
+</LinearLayout>
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapsActivity2">
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+    </fragment>
+
+
+    <RelativeLayout
+        android:id="@+id/showPlace"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_above="@id/buttonAccept"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@android:color/black"
+        android:text="TextView"
+        android:textSize="24sp">
+
+        <TextView
+            android:id="@+id/distText"
+
+            android:layout_width="260dp"
+            android:layout_height="35dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_above="@id/durText"
+
+            android:text="TOTAL DISTANCE(KM) :"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/durText"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+
+            android:layout_above="@id/fairText"
+            android:layout_alignParentLeft="true"
+
+            android:text="TIME NEED:"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fairText"
+
+            android:layout_width="260dp"
+            android:layout_height="35dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+
+            android:text="TOTAL FAIR(TAKA): "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/distVal"
+
+            android:layout_width="114dp"
+            android:layout_height="35dp"
+
+            android:layout_above="@id/durVal"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/distText"
+
+
+            android:text="0.0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/durVal"
+
+            android:layout_width="114dp"
+            android:layout_height="35dp"
+
+
+            android:layout_above="@id/fairVal"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/durText"
+
+            android:text="10 HR 10 MIN"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp"
+
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/fairVal"
+
+            android:layout_width="114dp"
+            android:layout_height="35dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/fairText"
+
+            android:text="0.0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/buttonAccept"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="REQUEST FOR RIDE"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+

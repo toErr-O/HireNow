@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="270dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="320dp">
+
+
+        <TextView
+            android:id="@+id/slat2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+
+            android:text="slat"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/slong2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/slat2"
+            android:text="slong"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dlat2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/slong2"
+            android:text="dlat"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dlong2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/dlat2"
+            android:text="dLat"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fair2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/dlong2"
+            android:text="fair"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/phn2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/fair2"
+            android:text="phone"
+            android:textAlignment="viewStart"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/distance2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/phn2"
+            android:text="dist"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dur2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/distance2"
+            android:text="time"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/dur2"
+            android:text="requested"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="270dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp">
+
+
+        <TextView
+            android:id="@+id/slatText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:text="Source Latitude:"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/slongText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/slatText"
+            android:text="Source Longitude"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dlatText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/slongText"
+            android:text="Dest Latitude:"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dlongText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/dlatText"
+            android:text="Dest Longitude:"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fairText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/dlongText"
+            android:text="Total Fair(Taka):"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phoneNumberText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/fairText"
+            android:text="Phone Number:"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distanceText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/phoneNumberText"
+            android:text="Distance(km):"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/durationText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/distanceText"
+            android:text="Time Need:"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/requestTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/durationText"
+            android:text="Requested Time:"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonacreq"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="CONFIRM RIDE"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="326dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="234dp"
+        android:text="PICKUP REQUEST'S DETAIL"
+        android:textAlignment="center"
+        android:textColor="@color/place_autocomplete_search_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@drawable/placesearch2" />
+
+</RelativeLayout>
