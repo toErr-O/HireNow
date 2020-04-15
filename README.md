@@ -1,5 +1,5 @@
 # HireNow
-A small ride sharing app. It was developed as a course project for CSE 618 - Mobile Apps Development Lab.
+A small ride sharing android app. It was developed as a course project for CSE 618 - Mobile Apps Development Lab.
 
 <img src = "https://user-images.githubusercontent.com/52358417/79186028-5788af80-7e3a-11ea-9c24-e14db1f6e944.jpg" width ="200" /> <img src = "https://user-images.githubusercontent.com/52358417/79186036-59eb0980-7e3a-11ea-9eed-e6e6f9d3c29a.jpg" width ="200" /> <img src = "https://user-images.githubusercontent.com/52358417/79186037-5b1c3680-7e3a-11ea-966f-6cfd01e9e5c7.jpg" width ="200" />
 
