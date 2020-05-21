@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/profileAvt"
-        android:layout_width="72dp"
-        android:layout_height="110dp"
+        android:layout_width="128dp"
+        android:layout_height="137dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -20,52 +20,35 @@
         android:id="@+id/hireNowReg"
         android:layout_width="210dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/profileAvt"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
 
 
-        android:text="HIRE NOW!"
-        android:textAlignment="viewStart"
+        android:layout_marginTop="189dp"
+        android:text="Register"
+        android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/profileReg"
-        android:layout_width="210dp"
-        android:layout_height="40dp"
-
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/hireNowReg"
-        android:layout_marginTop="9dp"
-
-
-        android:text="Profile Registration"
-        android:textAlignment="viewEnd"
-
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
     <EditText
         android:id="@+id/nameRegister"
-        android:layout_width="210dp"
+        android:layout_width="245dp"
         android:layout_height="40dp"
         android:layout_above="@+id/phoneRegister"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="9dp"
         android:autofillHints=""
         android:hint="Name"
-        android:inputType="textPersonName"/>
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/phoneRegister"
-        android:layout_width="210dp"
+        android:layout_width="245dp"
         android:layout_height="40dp"
         android:layout_above="@id/userTypeText"
-        android:layout_marginBottom="15dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
 
         android:hint="Phone Number"
         android:inputType="phone" />
@@ -73,14 +56,15 @@
 
     <TextView
         android:id="@+id/userTypeText"
-        android:layout_width="wrap_content"
+        android:layout_width="108dp"
         android:layout_height="wrap_content"
         android:layout_above="@id/emailRegister"
 
         android:layout_alignStart="@+id/emailRegister"
         android:layout_marginBottom="68dp"
 
-        android:text=" User Type:"
+        android:layout_marginStart="0dp"
+        android:text=" User:"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -89,8 +73,8 @@
         android:layout_height="50dp"
         android:layout_above="@id/emailRegister"
         android:layout_alignEnd="@+id/passRegister2"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="9dp">
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="67dp">
 
         <RadioButton
             android:id="@+id/passengerRadio"
@@ -98,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Passenger" />
+            android:text="Rider" />
 
         <RadioButton
             android:id="@+id/driverRadio"
@@ -111,7 +95,7 @@
 
     <EditText
         android:id="@+id/emailRegister"
-        android:layout_width="210dp"
+        android:layout_width="245dp"
         android:layout_height="40dp"
         android:layout_above="@+id/nidRegister"
 
@@ -120,12 +104,11 @@
 
 
         android:hint="Email"
-        android:inputType="textEmailAddress"
-        />
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/nidRegister"
-        android:layout_width="210dp"
+        android:layout_width="245dp"
         android:layout_height="40dp"
         android:layout_above="@+id/passRegister1"
 
@@ -137,7 +120,7 @@
 
     <EditText
         android:id="@+id/passRegister1"
-        android:layout_width="210dp"
+        android:layout_width="245dp"
         android:layout_height="40dp"
 
         android:layout_above="@+id/passRegister2"
@@ -150,30 +133,30 @@
 
     <EditText
         android:id="@+id/passRegister2"
-        android:layout_width="210dp"
+        android:layout_width="245dp"
         android:layout_height="40dp"
         android:layout_above="@+id/buttonRegister"
 
-        android:layout_marginBottom="15dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
 
         android:hint="Confirm Password"
         android:inputType="textPassword" />
 
     <Button
         android:id="@+id/buttonRegister"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@android:style/DeviceDefault.ButtonBar"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
 
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="31dp"
 
-        android:text="Register"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:background="@android:color/background_dark"
+        android:text="CONFIRM"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
 
 </RelativeLayout>
