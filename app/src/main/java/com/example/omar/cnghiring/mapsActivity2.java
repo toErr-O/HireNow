@@ -18,7 +18,6 @@ import com.example.omar.cnghiring.dashboardpack.reqDetails;
 import com.example.omar.cnghiring.directionHelper.FetchURL;
 import com.example.omar.cnghiring.directionHelper.TaskLoadedCallback;
 import com.example.omar.cnghiring.distanceHelper.GeoTask;
-import com.firebase.client.Firebase;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -110,7 +109,7 @@ public class mapsActivity2 extends AppCompatActivity implements OnMapReadyCallba
         setContentView(R.layout.activity_maps2);
 
         distValue=findViewById(R.id.distVal);
-        fairValue=findViewById(R.id.fairVal);
+        fairValue=findViewById(R.id.distVal);
         durValue=findViewById(R.id.durVal);
 
         btnAC=findViewById(R.id.buttonAccept);
