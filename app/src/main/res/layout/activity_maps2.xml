@@ -40,135 +40,135 @@
 
     <RelativeLayout
         android:id="@+id/showPlace"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_width="386dp"
+        android:layout_height="118dp"
         android:layout_above="@id/buttonAccept"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="13dp"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="-2dp"
-        android:background="@android:color/black"
+        android:background="@android:color/darker_gray"
         android:text="TextView"
         android:textSize="24sp">
 
         <TextView
             android:id="@+id/distText"
 
-            android:layout_width="260dp"
+            android:layout_width="179dp"
             android:layout_height="35dp"
 
-            android:layout_alignParentLeft="true"
             android:layout_above="@id/durText"
+            android:layout_alignParentLeft="true"
 
-            android:text="TOTAL DISTANCE(KM) :"
-            android:textAlignment="center"
+            android:layout_marginStart="40dp"
+            android:text="Total Distance (km) :"
+            android:textAlignment="inherit"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@android:color/white"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/durText"
-            android:layout_width="220dp"
+            android:layout_width="133dp"
             android:layout_height="35dp"
 
             android:layout_above="@id/fairText"
             android:layout_alignParentLeft="true"
 
-            android:text="TIME NEED:"
-            android:textAlignment="center"
+            android:layout_marginStart="40dp"
+            android:text="Drop-off Time :"
+            android:textAlignment="inherit"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/fairText"
 
-            android:layout_width="260dp"
+            android:layout_width="157dp"
             android:layout_height="35dp"
 
-            android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
 
-            android:text="TOTAL FAIR(TAKA): "
-            android:textAlignment="center"
+            android:layout_marginStart="40dp"
+            android:text="Total Fair (Taka) : "
+            android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="18sp" />
 
 
         <TextView
             android:id="@+id/distVal"
 
-            android:layout_width="114dp"
+            android:layout_width="123dp"
             android:layout_height="35dp"
 
             android:layout_above="@id/durVal"
             android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+
+
+            android:layout_marginStart="3dp"
             android:layout_toEndOf="@+id/distText"
-
-
             android:text="0.0"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@android:color/holo_orange_dark"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
 
 
         <TextView
             android:id="@+id/durVal"
 
-            android:layout_width="114dp"
+            android:layout_width="173dp"
             android:layout_height="35dp"
 
-
             android:layout_above="@id/fairVal"
-            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+
+            android:layout_marginStart="3dp"
             android:layout_toEndOf="@id/durText"
-
-            android:text="10 HR 10 MIN"
+            android:text="0 hr 0 min"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@android:color/holo_orange_dark"
-            android:textSize="18sp"
-
-            android:textStyle="bold" />
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
 
 
         <TextView
             android:id="@+id/fairVal"
 
-            android:layout_width="114dp"
+            android:layout_width="196dp"
             android:layout_height="35dp"
 
-            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_toEndOf="@id/fairText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
 
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@id/fairText"
             android:text="0.0"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@android:color/holo_orange_dark"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
 
     </RelativeLayout>
 
 
     <Button
         android:id="@+id/buttonAccept"
-        style="@android:style/Widget.Material.Light.Button.Borderless"
+        style="@android:style/Widget.Material.Light.Button"
         android:layout_width="match_parent"
-        android:layout_height="105dp"
+        android:layout_height="86dp"
 
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
 
-        android:background="@color/common_google_signin_btn_text_dark_focused"
-        android:text="REQUEST FOR RIDE"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:background="@android:drawable/alert_dark_frame"
+        android:text="Confirm Pickup"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
 
 
 </RelativeLayout>
