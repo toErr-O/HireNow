@@ -7,10 +7,20 @@ A ridesharing android application.
 
 
 ## Project Details:
-A rider can request for rideshare using the application. In the app, the rider selects the drop-off location using the place picker or 'where to go?' search box. Then reviewing the price and drop-off time rider confirms the pickup.
+A rider can request for rideshare using the application. In the app, the rider selects the drop-off location using the place picker or "Where to go?" search box. Then reviewing the price and drop-off time rider confirms the pickup.
 
-Drivers can see and choose to accept the rider’s ride request. A rider gets an automatic cellular call when a driver accepts his/her ride request.
+Drivers can see and choose to accept the rider’s ride request in the "Available Pickup Request(s)" window. A rider gets an automatic cellular call when a driver accepts his/her ride request.
 
+## How to use
+Import the project in Android studio. Connect your app with the Firebase using the following method in Android studio.
+     
+     Tools>Firebase>Authentication>Connect>Sync
+Get your Google Maps API Key and replace it with the similar one in AndroidManifest.xml & google_maps_api.xml.
+
+## Current Issues
+    1. Place Auto Complete had stopped working due to the use of the deprecated Google Play Services version of 
+       the Places SDK.
+    2. Distance Matrix API & Directions API are not working properly.
 
 ## Contribution 
 Contribution to the project will be warmly welcomed.
