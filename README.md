@@ -26,7 +26,7 @@ Get your Google Maps API Key and replace it with the similar one in AndroidManif
 Contribution to the project will be warmly welcomed.
 
 
-## Credit
+## Credits
 Place Auto Complete : https://github.com/googlearchive/android-play-places/tree/master/PlaceCompleteAdapter
 
 Distance Matrix API : https://github.com/vastavch/GoogleMapsDistanceMatrixAPI_Demo 
