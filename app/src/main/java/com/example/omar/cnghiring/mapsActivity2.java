@@ -98,7 +98,7 @@ public class mapsActivity2 extends AppCompatActivity implements OnMapReadyCallba
 
 
                     //for distance
-                    String url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imerial&origins="+mksource.getPosition()+"&destinations="+mkdest.getPosition()+"&mode=driving&key=AIzaSyC9zUgAyLYW9xNYiyN04fx-P7C-4reJBTA";
+                    String url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imerial&origins="+mksource.getPosition()+"&destinations="+mkdest.getPosition()+"&mode=driving&key=" + getString(R.string.google_maps_key)+"\n";
                     new GeoTask(mapsActivity2.this).execute(url);
                 }
             }
@@ -147,8 +147,8 @@ public class mapsActivity2 extends AppCompatActivity implements OnMapReadyCallba
 
 
         Double minute=Double.parseDouble(res[0])/60.0;
-        durValue.setText((int) (minute / 60) + " HR " + (int) (minute % 60) + " MIN");
-        duration=(int) (minute / 60) + " HR " + (int) (minute % 60) + " MIN";//for database insertion
+        durValue.setText((int) (minute / 60) + " hr(s) " + (int) (minute % 60) + " min(s)");
+        duration=(int) (minute / 60) + " hr(s) " + (int) (minute % 60) + " min(s)";//for database insertion
 
         //calculating fair
         //1st kilometer 40 taka and 10 taka per kilometer after that.
@@ -181,7 +181,7 @@ public class mapsActivity2 extends AppCompatActivity implements OnMapReadyCallba
         // Output format
         String output = "json";
         // Building the url to the web service
-        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters + "&key=" + getString(R.string.google_maps_key);
+        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters + "&key=" + getString(R.string.google_maps_key)+"\n";
         return url;
     }
 

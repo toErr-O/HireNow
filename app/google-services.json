@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "758700177022-c5qtm7b2rt9pktena25fs5i0isojeai5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omar.cnghiring",
+            "certificate_hash": "b2d8765a44e3db276682cca6b3c31d9a1c9c01f9"
+          }
+        },
+        {
           "client_id": "758700177022-7ssf6fkrcc0dt4c10rn8m79om53qn2hs.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
