@@ -11,12 +11,14 @@ A rider can request for rideshare using the application. In the app, the rider s
 
 Drivers can see and choose to accept the rider’s ride request. A rider gets an automatic cellular call when a driver accepts his/her ride request.
 
-### Credit
+
+## Contribution 
+Contribution to the project will be warmly welcomed.
+
+
+## Credit
 Place Auto Complete : https://github.com/googlearchive/android-play-places/tree/master/PlaceCompleteAdapter
 
 Distance Matrix API : https://github.com/vastavch/GoogleMapsDistanceMatrixAPI_Demo 
 
 Directions API : https://github.com/Vysh01/android-maps-directions 
-
-## Contribution 
-Contribution to the project will be warmly welcomed.
